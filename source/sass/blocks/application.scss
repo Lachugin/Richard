@@ -1,0 +1,26 @@
+.application {
+  background: url("../img/application.png") bottom center/1200px 656px no-repeat,
+  var(--application-bg);
+  min-height: 957px;
+  padding-top: 100px;
+}
+
+.application__title {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-easy-gray);
+  text-align: center;
+}
+
+.application__text {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--color-white);
+}

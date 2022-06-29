@@ -1,0 +1,43 @@
+.interesting {
+  background-color: var(--interesting-bg);
+}
+
+.interesting__wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 72px;
+}
+
+.interesting__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.interesting__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.interesting__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--interesting-subtitle);
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.interesting__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--interesting-text);
+  max-width: 371px;
+}
