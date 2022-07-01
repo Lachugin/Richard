@@ -1,0 +1,10 @@
+.marketing {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--marketing-bg);
+}
+
+.marketing__inner {
+  margin: 0 auto;
+  margin-bottom: 115px;
+}

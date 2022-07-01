@@ -1,6 +1,6 @@
 .reviews {
   background-color: var(--reviews-bg);
-  padding: 0 72px;
+  padding: 50px 72px;
 }
 
 .reviews__wrapper {
@@ -76,6 +76,7 @@
   width: 7px;
   height: 7px;
   background: rgba(34, 34, 34, 0.4);
+  cursor: pointer;
 }
 
 .reviews__point .reviews__style--active {
