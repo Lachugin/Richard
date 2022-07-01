@@ -1,0 +1,44 @@
+.get-start {
+  background: url("../img/get-bg.png") center (center/cover) no-repeat;
+  display: flex;
+  height: 474px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-start__title {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--get-start-text);
+}
+
+.get-start__inner {
+  margin-top: 40px;
+  display: flex;
+  width: 395px;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.get-start__button {
+  border: none;
+  background: var(--easy-pink);
+  border-radius: 3px;
+  padding: 20px 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  transition: 0.5s;
+  color: var(--get-start-text);
+  cursor: pointer;
+}
+
+.get-start__button--active {
+  background: none;
+  border: 1px solid var(--border-button);
+  border-radius: 0px;
+}

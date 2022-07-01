@@ -1,7 +1,8 @@
 .marketing {
   display: flex;
   flex-direction: column;
-  background-color: var(--marketing-bg);
+  background: url("../img/marketing-app.png") bottom center/100% 518px no-repeat,var(--marketing-bg);
+  height: 671px;
 }
 
 .marketing__inner {
